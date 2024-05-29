@@ -50,7 +50,7 @@ function Footer() {
                   <li className=" font-semibold text-[14px] leading-8 text-[#FFFFFF] opacity-[40%] ">
                     PLATFORM
                   </li>
-                  <li>Find Work</li>
+                  <li className="border-gradient ">Find Work</li>
                   <li>Find Talent</li>
                   <li>Categories</li>
                   <li>About Us</li>
@@ -87,7 +87,7 @@ function Footer() {
       <div className=" text-[#FFFFFF] opacity-[60%] border-t-[1px] p-4 pb-0">
         <div className="flex justify-between">
           <p>All rights reserved by Zwilt</p>
-          <div className="flex justify-center gap-8 items-center">
+          <div className="flex justify-center gap-8 items-center underline">
             <p>Privacy Policy</p>
             <p>Terms and Conditions</p>
           </div>
