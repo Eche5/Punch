@@ -70,9 +70,9 @@ function Steps() {
               </ul>
             </div>
             <div className="xl:w-[730px] bg-[#FFFFFF] xl:h-[224px] rounded-[7px] flex flex-col justify-center p-4 gap-4 ">
-              <h3>IT & Development</h3>
+              <h3 className=" font-medium text-[16px]">IT & Development</h3>
               <div className="flex flex-col justify-center items-center">
-                <div className="grid xl:grid-cols-6 grid-cols-3 xl:gap-4 gap-8">
+                <div className="grid xl:grid-cols-6 grid-cols-3 xl:gap-5 gap-4">
                   {IT.map((dev) => (
                     <div key={dev.id} className="flex flex-col items-center ">
                       <div className="w-[96px] h-[96px] bg-[#F6F6F6] rounded-[74px] flex items-center justify-center">
@@ -113,9 +113,9 @@ function Steps() {
               </ul>
             </div>
             <div className="xl:w-[730px] bg-[#FFFFFF] xl:h-[224px] text-[#202229] rounded-[7px] flex flex-col justify-center p-4 gap-4 ">
-              <h3>Design & Creative</h3>
+              <h3 className=" font-medium text-[16px]">Design & Creative</h3>
               <div className="flex flex-col justify-center items-center">
-                <div className="grid xl:grid-cols-6 grid-cols-3 xl:gap-4 gap-8">
+                <div className="grid xl:grid-cols-6 grid-cols-3 xl:gap-5 gap-4">
                   {Creative.map((dev) => (
                     <div key={dev.id} className="flex flex-col items-center">
                       <div className="w-[96px] h-[96px] bg-[#F6F6F6] rounded-[74px] flex items-center justify-center">
