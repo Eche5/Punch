@@ -48,7 +48,7 @@ function Steps() {
             needs.
           </h1>
         </div>
-        <div className=" px-20 flex flex-col gap-10 ">
+        <div className=" xl:px-20 flex flex-col gap-10 ">
           <div className="xl:flex justify-between grid grid-cols-1 gap-10 items-center">
             <div className=" xl:w-[380px] flex flex-col justify-center gap-4">
               <h3 className=" text-[24px] font-medium">
@@ -72,7 +72,7 @@ function Steps() {
             <div className="xl:w-[730px] bg-[#FFFFFF] xl:h-[224px] rounded-[7px] flex flex-col justify-center p-4 gap-4 ">
               <h3>IT & Development</h3>
               <div className="flex flex-col justify-center items-center">
-                <div className="grid xl:grid-cols-6 grid-cols-2 gap-4">
+                <div className="grid xl:grid-cols-6 grid-cols-3 xl:gap-4 gap-8">
                   {IT.map((dev) => (
                     <div key={dev.id} className="flex flex-col items-center ">
                       <div className="w-[96px] h-[96px] bg-[#F6F6F6] rounded-[74px] flex items-center justify-center">
@@ -115,7 +115,7 @@ function Steps() {
             <div className="xl:w-[730px] bg-[#FFFFFF] xl:h-[224px] text-[#202229] rounded-[7px] flex flex-col justify-center p-4 gap-4 ">
               <h3>Design & Creative</h3>
               <div className="flex flex-col justify-center items-center">
-                <div className="grid xl:grid-cols-6 grid-cols-2 gap-4">
+                <div className="grid xl:grid-cols-6 grid-cols-3 xl:gap-4 gap-8">
                   {Creative.map((dev) => (
                     <div key={dev.id} className="flex flex-col items-center">
                       <div className="w-[96px] h-[96px] bg-[#F6F6F6] rounded-[74px] flex items-center justify-center">
