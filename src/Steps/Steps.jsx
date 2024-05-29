@@ -36,7 +36,7 @@ function Steps() {
     { id: "dot", image: cinema, name: "Cinema 4D" },
   ];
   return (
-    <div className=" bg-[#EDEFFF] skew-y-[-3deg] pb-20">
+    <div className=" bg-[#EDEFFF] skew-y-[-3deg] pb-20 px-4">
       <div className="  skew-y-3   mt-40 relative font-switzer flex flex-col text-[#202229] justify-center gap-20">
         <div className="font-switzer relative ">
           <img

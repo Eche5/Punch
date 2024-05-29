@@ -3,7 +3,7 @@ import React from "react";
 function FAQ() {
   return (
     <div className=" bg-[#EDEFFF] ">
-      <div className=" font-switzer bg-[#F3F3F3] skew-y-[-3deg] py-20 flex flex-col gap-20">
+      <div className=" font-switzer bg-[#F3F3F3] skew-y-[-3deg] py-20 flex flex-col gap-20 px-4 xl:px-0">
         <h3 className=" font-bold xl:text-[54px] text-[30px] leading-[64px] text-center skew-y-3">
           Frequently asked questions
         </h3>
@@ -13,7 +13,7 @@ function FAQ() {
               <h3>General</h3>
             </div>
             <div className="border-[1px]  h-[112px] xl:px-[27.5rem]  flex items-center xl:justify-start justify-center ">
-              <p>I want to work part-time, is that possible</p>
+              <p className=" text-center">I want to work part-time, is that possible</p>
             </div>
           </div>
           <div className="border-[1px]  h-[112px] skew-y-3 xl:pl-[42rem]  flex items-center xl:justify-start justify-center ">
@@ -29,7 +29,7 @@ function FAQ() {
             <div className=" w-[230px] border-[1px] h-[112px] bg-[#E8E8E8] flex items-center justify-center ">
               <h3 className=" font-semibold">General</h3>
             </div>
-            <div className=" w-[230px] border-[1px] h-[112px] flex items-center justify-center ">
+            <div className=" w-[230px] border-[1px] h-[112px] flex items-center pl-8 xl:pl-0 justify-center  ">
               <h3>Joining Process</h3>
             </div>
             <div className="border-[1px]  h-[112px] flex xl:px-[13rem] items-center  ">

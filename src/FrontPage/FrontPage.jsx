@@ -2,7 +2,7 @@ import pic from "../assets/zwilt-tba-1-01 2.gif";
 import input from "../assets/input.png";
 export default function FrontPage() {
   return (
-    <section className=" grid grid-cols-1 gap-20 pt-28 ">
+    <section className=" grid grid-cols-1 gap-20 pt-28 px-4 ">
       <div className=" flex justify-center items-center gap-20">
         <div className="  xl:w-[671px] font-switzer grid grid-cols-1 xl:gap-6 gap-8">
           <div className=" flex flex-col items-center">

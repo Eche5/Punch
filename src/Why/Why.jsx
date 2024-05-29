@@ -10,9 +10,9 @@ import group2 from "../assets/Group 626502.png";
 
 function Why() {
   return (
-    <div className=" font-switzer text-[#202229] bg-[#EDEFFF] xl:flex items-center py-20 px-10 pr-0 gap-40">
-      <div className="xl:w-[380px] ">
-        <h4 className=" xl:w-[380px] xl:h-[128px] font-bold leading-[64px] text-[30px] xl:text-[54px]">
+    <div className=" font-switzer text-[#202229] bg-[#EDEFFF] xl:flex items-center py-20 grid grid-cols-1 gap-10 px-10 pr-0 xl:gap-40">
+      <div className="xl:w-[380px] pr-4 xl:pl-0">
+        <h4 className=" xl:w-[380px] xl:h-[128px] font-bold leading-[64px] text-[30px] xl:text-[54px] ">
           Why choose Zwilt?
         </h4>
         <p className=" xl:w-[326px] font-normal xl:text-[22px] leading-8">
